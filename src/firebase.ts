@@ -1,4 +1,4 @@
-import { initializeApp } from "firebase/app";
+import { FirebaseApp, initializeApp } from "firebase/app";
 
 const apiKey: string = process.env.REACT_APP_FIREBASE_API_KEY || "";
 const authDomain: string = process.env.REACT_APP_FIREBASE_AUTH_DOMAIN || "";
@@ -25,4 +25,4 @@ const firebaseConfig: {
   appId: appId,
 };
 
-const app = initializeApp(firebaseConfig);
+const app: FirebaseApp = initializeApp(firebaseConfig);
