@@ -2,8 +2,8 @@ import React from "react";
 
 type Props = {};
 
-function MarvelUniverse({}: Props) {
-  return <div>MarvelUniverse</div>;
+function Login({}: Props) {
+  return <div>Login</div>;
 }
 
-export default MarvelUniverse;
+export default Login;
